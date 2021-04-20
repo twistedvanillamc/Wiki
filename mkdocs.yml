@@ -1,0 +1,8 @@
+site_name: Twisted Wiki
+
+theme:
+  name: readthedocs
+  custom_dir: custom_theme/
+
+nav:
+    - 'index.md'
