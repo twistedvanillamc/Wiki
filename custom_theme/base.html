@@ -79,9 +79,9 @@
     {# SIDE NAV, TOGGLES ON MOBILE #}
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
+		<a  href="{{ nav.homepage.url|url }}"> <img src="img/logo.png" style="width:150px;height:150px;border-radius: 0%"> </a>
     {%- block site_name %}
-		<img src="img/logo.png" style="border-radius: 0%">
-        <a href="{{ nav.homepage.url|url }}" class="icon icon-home"> {{ config.site_name }}</a>
+        
 	  {%- endblock %}
 	  {%- block search_button %}
         {% if 'search' in config['plugins'] %}{% include "searchbox.html" %}{% endif %}
